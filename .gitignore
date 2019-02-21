@@ -1,0 +1,6 @@
+**/bin/**
+**/.recommenders
+**/.metadata
+**/*.class
+**/target/**
+
