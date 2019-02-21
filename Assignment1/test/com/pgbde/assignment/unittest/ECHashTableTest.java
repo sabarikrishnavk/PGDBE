@@ -1,13 +1,13 @@
-package com.pgbde.assignment.direct.addressing;
+package com.pgbde.assignment.unittest;
 
-public class ElectionCountTest {
+import com.pgbde.assignment.ECHashTableImpl;
+
+public class ECHashTableTest {
 
 	public static void main(String[] args) {
-		ElectionCount count  =new ElectionCount();
-		
-		
+		ECHashTableImpl count  =new ECHashTableImpl();
 		System.out.println("-------------------------");
-		System.out.println("-----Valid scenarios-----");
+		System.out.println("-----Valid scenarios with Hash table-----");
 		System.out.println("-------------------------");
 		System.out.println(count.find(200001));
 		System.out.println(count.count(835));
