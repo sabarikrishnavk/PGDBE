@@ -31,7 +31,7 @@ public class BloomFilter {
 		numHashFunctions = numHashs;
 		addVoters(fileName);
 		
-		System.out.println("BloomFilter :Collision count : "+collisionCount + " :size:" +size + " :numHashFunctions:" + numHashFunctions);
+		System.out.println("Info :BloomFilter :Collision count : "+collisionCount + " :size:" +size + " :numHashFunctions:" + numHashFunctions);
 	}
 	/**
 	 * read valid voters contents from file and 
